@@ -886,7 +886,7 @@ checksum = "2af50177e190e07a26ab74f8b1efbfe2ef87da2116221318cb1c2e82baf7de06"
 [[package]]
 name = "binary-merkle-tree"
 version = "16.1.1"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "hash-db",
  "log",
@@ -6601,7 +6601,7 @@ dependencies = [
 [[package]]
 name = "sc-allocator"
 version = "36.0.0"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "log",
  "sp-core",
@@ -6612,7 +6612,7 @@ dependencies = [
 [[package]]
 name = "sc-chain-spec"
 version = "49.0.0"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "array-bytes",
  "docify",
@@ -6627,7 +6627,7 @@ dependencies = [
  "serde_json",
  "sp-blockchain",
  "sp-core",
- "sp-crypto-hashing 0.1.0 (git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603)",
+ "sp-crypto-hashing 0.1.0 (git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603)",
  "sp-genesis-builder",
  "sp-io",
  "sp-runtime",
@@ -6638,7 +6638,7 @@ dependencies = [
 [[package]]
 name = "sc-chain-spec-derive"
 version = "12.0.0"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "proc-macro-crate",
  "proc-macro2",
@@ -6649,7 +6649,7 @@ dependencies = [
 [[package]]
 name = "sc-client-api"
 version = "45.0.0"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "fnv",
  "futures",
@@ -6675,7 +6675,7 @@ dependencies = [
 [[package]]
 name = "sc-executor"
 version = "0.48.0"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "parity-scale-codec",
  "parking_lot 0.12.5",
@@ -6698,7 +6698,7 @@ dependencies = [
 [[package]]
 name = "sc-executor-common"
 version = "0.44.0"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "polkavm",
  "sc-allocator",
@@ -6711,7 +6711,7 @@ dependencies = [
 [[package]]
 name = "sc-executor-polkavm"
 version = "0.41.0"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "log",
  "polkavm",
@@ -6723,7 +6723,7 @@ dependencies = [
 [[package]]
 name = "sc-executor-wasmtime"
 version = "0.44.0"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "anyhow",
  "log",
@@ -6739,7 +6739,7 @@ dependencies = [
 [[package]]
 name = "sc-network"
 version = "0.56.0"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "array-bytes",
  "async-channel 1.9.0",
@@ -6788,7 +6788,7 @@ dependencies = [
 [[package]]
 name = "sc-network-common"
 version = "0.53.0"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "bitflags 1.3.2",
  "parity-scale-codec",
@@ -6798,7 +6798,7 @@ dependencies = [
 [[package]]
 name = "sc-network-types"
 version = "0.20.2"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "bs58",
  "bytes",
@@ -6820,7 +6820,7 @@ dependencies = [
 [[package]]
 name = "sc-telemetry"
 version = "30.0.1"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "chrono",
  "futures",
@@ -6839,7 +6839,7 @@ dependencies = [
 [[package]]
 name = "sc-transaction-pool-api"
 version = "44.0.0"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "async-trait",
  "futures",
@@ -6857,7 +6857,7 @@ dependencies = [
 [[package]]
 name = "sc-utils"
 version = "20.1.0"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "async-channel 1.9.0",
  "futures",
@@ -7645,7 +7645,7 @@ dependencies = [
 [[package]]
 name = "sp-api"
 version = "41.0.0"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "docify",
  "hash-db",
@@ -7667,7 +7667,7 @@ dependencies = [
 [[package]]
 name = "sp-api-proc-macro"
 version = "27.0.0"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "Inflector",
  "blake2",
@@ -7681,7 +7681,7 @@ dependencies = [
 [[package]]
 name = "sp-application-crypto"
 version = "45.0.0"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "parity-scale-codec",
  "scale-info",
@@ -7693,7 +7693,7 @@ dependencies = [
 [[package]]
 name = "sp-arithmetic"
 version = "28.0.1"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "docify",
  "integer-sqrt",
@@ -7707,7 +7707,7 @@ dependencies = [
 [[package]]
 name = "sp-blockchain"
 version = "44.0.0"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "futures",
  "parity-scale-codec",
@@ -7726,7 +7726,7 @@ dependencies = [
 [[package]]
 name = "sp-consensus"
 version = "0.47.0"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "async-trait",
  "futures",
@@ -7743,7 +7743,7 @@ dependencies = [
 [[package]]
 name = "sp-core"
 version = "40.0.0"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "ark-vrf",
  "array-bytes",
@@ -7774,7 +7774,7 @@ dependencies = [
  "secrecy 0.8.0",
  "serde",
  "sha2 0.10.9",
- "sp-crypto-hashing 0.1.0 (git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603)",
+ "sp-crypto-hashing 0.1.0 (git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603)",
  "sp-debug-derive",
  "sp-externalities",
  "sp-std",
@@ -7804,7 +7804,7 @@ dependencies = [
 [[package]]
 name = "sp-crypto-hashing"
 version = "0.1.0"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "blake2b_simd",
  "byteorder",
@@ -7817,17 +7817,17 @@ dependencies = [
 [[package]]
 name = "sp-crypto-hashing-proc-macro"
 version = "0.1.0"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "quote",
- "sp-crypto-hashing 0.1.0 (git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603)",
+ "sp-crypto-hashing 0.1.0 (git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603)",
  "syn 2.0.117",
 ]
 
 [[package]]
 name = "sp-database"
 version = "10.0.1"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "kvdb",
  "parking_lot 0.12.5",
@@ -7836,7 +7836,7 @@ dependencies = [
 [[package]]
 name = "sp-debug-derive"
 version = "15.0.0"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "proc-macro-warning",
  "proc-macro2",
@@ -7847,7 +7847,7 @@ dependencies = [
 [[package]]
 name = "sp-externalities"
 version = "0.32.0"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "environmental",
  "parity-scale-codec",
@@ -7857,7 +7857,7 @@ dependencies = [
 [[package]]
 name = "sp-genesis-builder"
 version = "0.22.0"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "parity-scale-codec",
  "scale-info",
@@ -7869,7 +7869,7 @@ dependencies = [
 [[package]]
 name = "sp-inherents"
 version = "41.0.0"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "async-trait",
  "impl-trait-for-tuples",
@@ -7882,7 +7882,7 @@ dependencies = [
 [[package]]
 name = "sp-io"
 version = "45.0.0"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "bytes",
  "docify",
@@ -7894,7 +7894,7 @@ dependencies = [
  "rustversion",
  "secp256k1 0.28.2",
  "sp-core",
- "sp-crypto-hashing 0.1.0 (git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603)",
+ "sp-crypto-hashing 0.1.0 (git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603)",
  "sp-externalities",
  "sp-keystore",
  "sp-runtime-interface",
@@ -7908,7 +7908,7 @@ dependencies = [
 [[package]]
 name = "sp-keystore"
 version = "0.46.0"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "parity-scale-codec",
  "parking_lot 0.12.5",
@@ -7919,7 +7919,7 @@ dependencies = [
 [[package]]
 name = "sp-maybe-compressed-blob"
 version = "11.1.0"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "thiserror 1.0.69",
  "zstd 0.12.4",
@@ -7928,7 +7928,7 @@ dependencies = [
 [[package]]
 name = "sp-metadata-ir"
 version = "0.12.3"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "frame-metadata",
  "parity-scale-codec",
@@ -7938,7 +7938,7 @@ dependencies = [
 [[package]]
 name = "sp-panic-handler"
 version = "13.0.2"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "backtrace",
  "regex",
@@ -7947,7 +7947,7 @@ dependencies = [
 [[package]]
 name = "sp-runtime"
 version = "46.0.0"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "binary-merkle-tree",
  "bytes",
@@ -7978,7 +7978,7 @@ dependencies = [
 [[package]]
 name = "sp-runtime-interface"
 version = "34.0.0"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "bytes",
  "impl-trait-for-tuples",
@@ -7996,7 +7996,7 @@ dependencies = [
 [[package]]
 name = "sp-runtime-interface-proc-macro"
 version = "21.0.0"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "Inflector",
  "expander",
@@ -8009,7 +8009,7 @@ dependencies = [
 [[package]]
 name = "sp-state-machine"
 version = "0.50.0"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "hash-db",
  "log",
@@ -8029,12 +8029,12 @@ dependencies = [
 [[package]]
 name = "sp-std"
 version = "14.0.0"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 
 [[package]]
 name = "sp-storage"
 version = "23.0.0"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "impl-serde",
  "parity-scale-codec",
@@ -8046,7 +8046,7 @@ dependencies = [
 [[package]]
 name = "sp-tracing"
 version = "19.0.0"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "parity-scale-codec",
  "regex",
@@ -8058,7 +8058,7 @@ dependencies = [
 [[package]]
 name = "sp-trie"
 version = "43.0.0"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "ahash",
  "foldhash 0.1.5",
@@ -8083,7 +8083,7 @@ dependencies = [
 [[package]]
 name = "sp-version"
 version = "44.0.0"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "impl-serde",
  "parity-scale-codec",
@@ -8101,7 +8101,7 @@ dependencies = [
 [[package]]
 name = "sp-version-proc-macro"
 version = "15.0.0"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "parity-scale-codec",
  "proc-macro-warning",
@@ -8113,7 +8113,7 @@ dependencies = [
 [[package]]
 name = "sp-wasm-interface"
 version = "24.0.0"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "anyhow",
  "impl-trait-for-tuples",
@@ -8125,7 +8125,7 @@ dependencies = [
 [[package]]
 name = "sp-weights"
 version = "34.0.0"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "bounded-collections",
  "parity-scale-codec",
@@ -8210,7 +8210,7 @@ dependencies = [
 [[package]]
 name = "substrate-bip39"
 version = "0.6.1"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "hmac 0.12.1",
  "pbkdf2",
@@ -8222,7 +8222,7 @@ dependencies = [
 [[package]]
 name = "substrate-prometheus-endpoint"
 version = "0.17.7"
-source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=test-stable2603#b2c0bd22af782b48d9cd1a7fd6051aa25c30af5a"
+source = "git+https://github.com/VoiceBan/polkadot-sdk?branch=vb-stable2603#5f61e872fc84c515235c88abc4506cd8ed02b1b1"
 dependencies = [
  "http-body-util",
  "hyper 1.9.0",

@@ -84,8 +84,8 @@ uuid = "1.4"
 walkdir = "2.5"
 
 # Polkadot-SDK crates
-sc-chain-spec = { git = "https://github.com/VoiceBan/polkadot-sdk", branch = "test-stable2603", }
-sp-core = { git = "https://github.com/VoiceBan/polkadot-sdk", branch = "test-stable2603", default-features = false}
+sc-chain-spec = { git = "https://github.com/VoiceBan/polkadot-sdk", branch = "vb-stable2603", }
+sp-core = { git = "https://github.com/VoiceBan/polkadot-sdk", branch = "vb-stable2603", default-features = false}
 
 # Zombienet workspace crates:
 support = { package = "zombienet-support", version = "0.4.11", path = "crates/support" }
